@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<div id="container">
+<br><h1>欢迎来到我的个人网站！--首页<br/></h1>
+<meta charest="utf-8">
+<title>190808216赵俸莹的个人网站--作品</title>
+<style>
+body,ul,h3,p{margin:0;padding:0;background-image:url(images/1.jpg);}
+li{list-style:none;}
+a{text-decoration:none;}
+body{background-color:#CFC;}
+ul#works{width:1200px;height:210px;margin:100px auto;}
+#works li{display:inline-block;width:216px;height:200px;padding-top:20px;padding-left:20px;background-color:#FFF;}	
+#works a{color:#000;font-size:18px;}
+#works p{color:#64C333;font-size:14px;}
+#works img{width:120px;margin-left:40px;}
+
+ul#map{width:220px;height:40px;margin:100px 20px 20px 100px;}
+#map li{display:inline-block;width:40px;height:40px;margin-bottom:5px;background-image:url('images/bg.png');}
+#map li.first{background-position:-80px 0;}
+#map li.second{background-position:0 -120px;}
+#map li.third{background-position:-80px -200px;}
+#map li.fourth{background-position:-80px -40px;}
+#map li.fifth{background-position:-80px -280px;}
+</style>
+<title>CSS常用属性案例实践</title>
+<style type="text/css">
+*{margin:0;padding:0;}
+body{font-size:12px;color:#66667F;}
+#case li{display:inline-block;width:250px;height:320px;margin-left:50px;margin-bottom:10px;padding:10px;border:1px solid #C00;}
+#case h3{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:32px;}
+#case h3 a{font-size:14px;color:#666;}
+#case li p{line-height:25px;}
+#case li.movie span{font-weight:bold;color:#FF5584;}
+#case li.hot span{margin-right:10px;color:red;}
+.main{position:relative;width:1000px;height:500px;margin:0 auto;background-image:url("images/wo.jpg") no-repeat;}
+.left,.right{position:absolute;width:55px;height:70px;background-image:url("images/pic3.png");}
+.left{left:200px;top:150px;background-position:0px -80px;}
+.right{right:200px;top:150px;background-position:0px -150px;}
+.left:hover,.right:hover{background-color:rgba(0,0,0,0.5);}
+</style>
+
+<link rel="stylesheet" href="css/main.css"type="text/css">
+
+
+</head>
+
+<body>
+
+
+
+<p class="nav">
+<a href="#info">基本信息</a>
+<a href="#about">关于我</a>
+<a href="#diary">日志</a>
+<a href="#works">作品</a>
+<a href="#photo">相册</a>
+<a href="#contact">联系</a></p>
+
+<div class="main">
+<a href="#"><div class="left"></div></a>
+<a href="#"><div class="right"></div></a>
+<p class="copyright">
+<img src="images/wo.jpg" width="400" height="400" alt="赵俸莹"><br/></p>
+
+</div>
+<h1><a name="works" id="works">作品</a><br/></h1>
+项目一<br/>
+项目二<br/>
+项目三<br/>
+项目四<br/>
+项目五<br/>
+
+
+<ul id="works">
+<li>
+<a href="#">一：交通安全</a>
+<p>交通安全你我他</p>
+<img src="images/works1.jpg"alt="交通"/>
+</li>
+<li><a href="#">二：5G大时代</a>
+<p>5G归来</p>
+<img src="images/works2.jpg"alt="5G"/>
+</li>
+
+<li><a href="#">三：课间活动</a>
+<p>课间活动</p>
+<img src="images/works3.jpg"alt="课间活动"/>
+</li>
+<li><a href="#">四：地球</a>
+<p>地球</p>
+<img src="images/works4.jpg"alt="地球"/>
+</li>
+<li><a href="#">五：环保</a>
+<p>森林</p>
+<img src="images/works5.jpg"alt="环保"/>
+</li>
+</ul>
+
+<ul>
+<ul id="map">
+<li class='first'></li><li class='second'></li><li class='third'></li><li class='fourth'></li><li class='fifth'></li>
+</ul>
+<ul>
+<ul id="case">
+
+<li>
+<a href="">
+<img src="images/pic1.jpg" alt=""width="250"height="188">
+</a>
+<h3>
+<a href="">动画便利店X果壳网《西门子洗碗机》by</a>
+</h3>
+
+
+<p class='movie'><span>原创作品</span>-影视-Motion Graphic</p>
+<p>2小时前上传</p>
+
+<p class='hot'>
+<span>1284</span>
+人气/<span>11</sapn>
+评论/<span>47</span>
+推荐
+</p>
+<img src="images/play.png"alt="">
+</li>
+<li>
+<a href="">
+<img src="images/pic2.gif"alt="" width="250"height="188">
+</a>
+<h3>
+<a href="">动画便利店X视知《到底工资怎么发》by</a>
+</h3>
+<p class='movie'><span>原创作品</span>-影视-Motion Graphic</p>
+<p>3小时前上传</p>
+<p class='hot'>
+<span>1569</span>
+人气/<span>50</sapn>
+评论/<span>125</span>
+推荐
+</p>
+<img src="images/play.png"alt="">
+</li>
+</ul>
+
+
+</body>
+</html>
